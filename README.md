@@ -7,3 +7,10 @@ A counter variable to compare the player's choice with should be determined as e
 The two values should be compared and a victor should be chosen based on the games rules.
 A victory or failure message should be displayed.
 The player should have a choice to start a new game.
+# 5.03.22
+A responsive UI will be added that should allow the user to press 3 buttons, for Rock, Paper and Scissors.
+It will compare the result to the randomly generated AI's choice, and declare a winner.
+Two sprites resembling hands in rock, paper or scissors formation should fade in when a new round occurs.
+'Win' (Green) or 'Loss' (Red) should displayed depending on outcome.
+Current round number and score's are tallied and displayed at the top.
+When game is over a new button should appear asking to restart the game.
