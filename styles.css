@@ -44,7 +44,15 @@ html, body {
     border:0.1em solid #FFFFFF;
     border-radius:0.12em;
     box-sizing:content-box;
-
+    text-transform:uppercase;
+}
+.rps-button:hover{
+    color:coral;
+    border-color: coral;
+}
+.rps-button:active{
+    color:#FF5D22;
+    border-color:#FF5D22;
 }
 .div-score-container{
     margin-top: 5vh;
