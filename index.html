@@ -8,16 +8,22 @@
     </head>
 
     <body>
+    <div class="invisible" id="div-winner">You win!</div>
+    <div class="invisible" id="div-loser">You lose!</div>
+    <div class="invisible" id="div-tie">You tied!</div>
     <div class="container">
         <div class="top">
-            <div class="round-counter">Round</div>
+            <div class="round-counter">Round: <p class="div-round-counter">0</p></div>
             <div class="div-score-container">
-                <div class="div-player-score">Player Score: </div>
-                <div class="div-cpu-score">CPU Score: </div>
+                <div>Player Score: <p class="div-player-score">0</p></div>
+                <div>CPU Score: <p class="div-cpu-score">0</p></div>
             </div>
         </div>
 
         <div class="middle">
+            <div id="win" class="invisible">WIN</div>
+            <div id="loss" class="invisible">LOSS</div>
+            <div id="tie" class="invisible">TIE</div>
         </div>
 
         <div class="bottom">
@@ -26,6 +32,6 @@
             <button class="rps-button" id="scissors-button">Scissors</button>
         </div>
     </div>
-
+        <button class="invisible" id="restart-button">New Game</button>
     </body>
 </html>

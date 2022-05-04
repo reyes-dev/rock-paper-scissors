@@ -6,8 +6,20 @@ html, body {
     background-color:black;
     font-family: Helvetica, Arial, sans-serif;
     color: white;
+    height: 100%;
 }
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 128px;
+height: 100%;
 
+}
+p{
+    display: inline;
+}
 .container {
     height: 100vh;
     display: flex;
@@ -22,21 +34,20 @@ html, body {
 }
 .top{
     flex-direction: column;
-    padding: 16px;
 }
-
 .round-counter{
-    font-size: 60px;
-    margin-right: 10vh;
+    font-size: 72px;
+    margin-top: .4em;
 }
-
+.div-score-container{
+    font-size: 20px;
+}
 .bottom{
     gap: 32px;
     padding: 48px;
     margin-bottom: 5vh;
 }
-
-.rps-button{
+button{
     color: white;
     background-color: black;
     padding:1em 1.2em;
@@ -46,11 +57,11 @@ html, body {
     box-sizing:content-box;
     text-transform:uppercase;
 }
-.rps-button:hover{
+button:hover{
     color:coral;
     border-color: coral;
 }
-.rps-button:active{
+button:active{
     color:#FF5D22;
     border-color:#FF5D22;
 }
@@ -58,4 +69,21 @@ html, body {
     margin-top: 5vh;
     margin-left: 2vh;
 }
-
+.invisible{
+    display:none;
+}
+.middle{
+    font-size: 5em;
+}
+#win{
+    color:green;
+}
+#loss{
+    color:red;
+}
+#tie{
+    color:yellow;
+}
+#div-winner, #div-loser, #div-tie{
+    font-size: 8em;
+}
